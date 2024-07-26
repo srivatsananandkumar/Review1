@@ -60,7 +60,7 @@ body {
 
 .navbar a {
     font-size: 1.7rem;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 500;
     margin-left: 3.5rem;
     transition: .3s;
@@ -88,7 +88,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('closeup+eg') no-repeat;
+    background: url('Home.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -266,7 +266,8 @@ section {
     width: 45%;
     height: 100%;
     background: transparent;
-    transition: 3s;
+/*     border:2px solid red;
+ */    transition: 3s;
 }
 
 .home-imgHover:hover {
@@ -307,8 +308,9 @@ span {
 
 .about-img img {
     width: 90%;
-    border-radius: 50%;
-    border: .2rem solid var(--main-color);
+    height: 90%;
+    border-radius: 100%;
+    border: .10rem solid var(--main-color);
 }
 
 .about-img .circle-spin {
